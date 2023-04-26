@@ -7,8 +7,7 @@ const Rows = ({user}) => {
 
   return (
     
-         <tr>
-            
+         <tr>            
             <td>{user.firstname}</td>
             <td>{user.lastname} </td>
             <td><button type="button" class="btn btn-dark" onClick={()=>{deleteUser(user._id)}}>Delete</button></td>

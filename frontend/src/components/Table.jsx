@@ -11,24 +11,6 @@ const Table = () => {
   
   }, [users])
   
-  // const ref = useRef(null);
-  // const refClose = useRef(null)
-  // const [user, setUser] = useState({id: "", etitle: "", edescription: "", etag: ""})
-
-  // const updateNote = (currentNote) => {
-  //   ref.current.click();
-  //   setNote({id: currentNote._id, etitle: currentNote.title, edescription: currentNote.description, etag:currentNote.tag})
-    
-  // };
-
-  // const handleClick = (e) => {
-  //   editNote(note.id, note.etitle, note.edescription, note.etag)
-  //   refClose.current.click();
-  // };
-
-  // const onChange = (e) => {
-  //   setUser({ ...user, [e.target.name]: e.target.value });
-  // };
   return (
     <div>
       <table class="table table-hover">

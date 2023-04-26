@@ -7,16 +7,16 @@ const UserState = (props) => {
   const usersInitial = [
     {
       "_id": "64495b4a562b3eb7031cc616",
-      "firstname": "zee",
-      "lastname": "nat",
+      "firstname": "first",
+      "lastname": "last",
       "createdAt": "2023-04-26T17:11:38.448Z",
       "updatedAt": "2023-04-26T17:11:38.448Z",
       "__v": 0
     },
     {
       "_id": "64495b59562b3eb7031cc618",
-      "firstname": "zeenat",
-      "lastname": "for",
+      "firstname": "first2",
+      "lastname": "last2",
       "createdAt": "2023-04-26T17:11:53.574Z",
       "updatedAt": "2023-04-26T17:11:53.574Z",
       "__v": 0

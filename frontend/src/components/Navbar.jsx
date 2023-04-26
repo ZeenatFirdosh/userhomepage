@@ -8,11 +8,6 @@ const Navbar = () => {
 
   const context = useContext(userContext);
   const {users, getUsers, addUser} = context;
-
-  // useEffect(() => {
-  //   getUsers();
-  
-  // }, [])
   
   const ref = useRef(null);
   const refClose = useRef(null)
