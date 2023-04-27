@@ -20,7 +20,8 @@ const Navbar = () => {
   };
 
   const handleClick = (e) => {
-    addUser( user.fname, user.lname)
+    addUser( user.fname, user.lname);
+    setUser({ fname: "", lname: ""});
     refClose.current.click();
   };
 

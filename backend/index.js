@@ -7,8 +7,8 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-
-mongoose.connect('mongodb+srv://zeenatfirdoshquadri:zeenatfirdoshquadri@cluster0.tl3advw.mongodb.net/?retryWrites=true&w=majority',
+// key=process.env.MONGO_CONNECTION;
+mongoose.connect("mongodb+srv://zeenatfirdoshquadri:zeenatfirdoshquadri@cluster0.tl3advw.mongodb.net/?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true }
 ).then(
     console.log("success Mongo atlas connected")
