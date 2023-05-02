@@ -12,7 +12,7 @@ function App() {
     <>
       <UserState>
         <Navbar />
-        <Home />
+        {/* <Home /> */}
         <Table />
       </UserState>
     </>
